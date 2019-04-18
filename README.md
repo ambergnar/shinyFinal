@@ -74,6 +74,26 @@ runGitHub( "shinyFinal", "ambergnar")
    >i. LINE PLOT    
    >ii. SCATTER PLOT    
    >iii. BOX PLOT  
+   
+>Beneath the tab  
+   >i. LINE PLOT  
+>The user will encounter a basic line plot with the years 1917 through 2020 as the X-axis.  
+>The categories selected by the user will determine the Y-axis.  
+>A legend attributing colors to each selected category will be displayed to the right of the plot.  
+
+>Beneath the tab  
+   >ii. SCATTER PLOT  
+>The user will encounter an interactive scatter plot with the years 1917 through 2020 as the X-axis.  
+>The categories selected by the user will determine the Y-axis.  
+>A legend attributing colors to each selected category will be displayed to the right of the plot.  
+>The user may click on any given data point to display its approximate corresponding X and Y values beneath the plot.  
+>Here, the X value is representative of the Year and the Y value is representative of the chosen category belonging to the catergory which corresponds to the color of the point clicked.  
+
+>Beneath the tab  
+   >iii. BOX PLOT  
+>The user will encounter an interactive box plot(s).  
+>Given each category selected, the entirety of each variable's behavior over the time period of years 1917 through 2020 can be visually summarized via these respective box plots.  
+>Also, given the categories chosen, the box plots will display their corresponding means accordingly.  
 
 >The panel on the left-hand side of  
 >**2. SELECT YEAR**   
@@ -117,6 +137,11 @@ runGitHub( "shinyFinal", "ambergnar")
 >**-SenateTotalMale**        
 >Upon selection, the chosen categories will be reflected within the following chart:   
    >i. PIE CHART  
+   
+>Beneath the tab  
+   >i. PIE CHART  
+>The user will encounter an interactive pie chart which displays the perecentages of the categories slected on the specific year chosen.  
+>These pie charts will allow the user to investigate the ratios between specific categories on any given year within the time period of years 1917 through 2020.   
 
 >The panel on the left-hand side of  
 >**3. REGRESSION TEST**   
