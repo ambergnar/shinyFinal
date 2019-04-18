@@ -228,7 +228,13 @@ runGitHub( "shinyFinal", "ambergnar")
 >**-SenateTotalMale**    
 >Upon selection, the categories chosen will be tested for a significant difference between their averages via a two-sided T-test. If the chosen categories meet the requirments to run a two-sided T-test, meaning both categories are normally distributed and their variances exhibit homogeneity, the results of which can be found beneath the following tab:     
    >i. TESTING IF AVERAGES OF 2 CHOSEN CATEGORIES ARE SIGNIFICANTLY DIFFERENT:    
->Otherwise, the user will be made aware that one of more of assumptions required for performing the test failed.  
+>Otherwise, the user will be made aware that one of more of assumptions required for performing the test failed. 
+
+>Beneath the tab  
+   >i. TESTING IF AVERAGES OF 2 CHOSEN CATEGORIES ARE SIGNIFICANTLY DIFFERENT:     
+>The user will encounter an interpreted conclusion based on the results found either upon completion of the two-sided T-test or lack there of.  
+>If a two-sided T-test was successfully completed, a statement will be displayed describing the conclusion made by the resulting p-value.  
+>If a two-sided T-test failed to complete, a statement will be displayed notifying the user that one or more assumptions required for performing this test failed.  
 
 >The final page the user may select is:  
 >**5. DATA**   
