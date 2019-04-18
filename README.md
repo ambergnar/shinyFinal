@@ -186,6 +186,16 @@ runGitHub( "shinyFinal", "ambergnar")
    >i. TESTING IF SIGNIFICANT RELATIONSHIP BETWEEN YEARS AND CHOSEN CATEGORY.  
 >Given the slope of the linear model found through the above testing involving the selected category and the years 1917 through 2020, a prediction regarding this category's behavior over time is made and displayed beneath the following tab:  
    >ii. PREDICTION  
+   
+>Beneath the tab  
+   >i. TESTING IF SIGNIFICANT RELATIONSHIP BETWEEN YEARS AND CHOSEN CATEGORY.    
+>The user will encounter an interpreted conclusion based on the results found upon completion of significance testing using the chosen category as a predictor variable and the years 1917 through 2020 as regressor variables.    
+>A statement will be displayed describing the conclusion made by the resulting p-value.  
+
+>Beneath the tab  
+   >ii. PREDICTION  
+>he user will encounter an interpreted conclusion based on the slope found upon completion of fitting a linear model using the chosen category as a predictor variable and the years 1917 through 2020 as regressor variables.   
+>A statement will be displayed offering a prediction of the chosen variables behavior over time.  
 
 >The panel on the left-hand side of  
 >**4. 2-SIDED T-TEST**   
@@ -316,9 +326,15 @@ runGitHub( "shinyFinal", "ambergnar")
 >**-SenateTotalFemale**        
    >Stored within this variable is the total number of Females serving the Senate each year.   
 >**-SenateTotalMale**    
-   >Stored within this variable is the total number of Males serving the Senate each year.   
+   >Stored within this variable is the total number of Males serving the Senate each year.  
+   
+>Beneath the tab  
+   >5. DATA  
 >The user may click on the arrows displayed to the right of each variable name to sort through the amounts within each column respectively.  
 >In addition, the user may also filter through the rows of the data set by entering a particular amount within the search bar shown on the upper right corner of the page.  
+>Finally, the user may also sort through various pages of the data by clicking on either the page numbers or arrows displayed below the data table on the bottom right corner. 
+
+
 
 >This completes the shinyFinal user guide.
    
